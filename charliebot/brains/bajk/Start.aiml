@@ -1,0 +1,119 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml>
+	<category>
+		    <pattern>FIRSTHELLO</pattern>
+		        <template>Witaj, jestem twoim doradc¹ rowerowym!
+					<think><set name="test4hello">false</set></think>
+				</template>
+	</category>
+	<category>
+    <pattern>XS</pattern>
+		<template>
+			<random>
+				<li>Myœlê ¿e rozmiar roweru XS by³by dobrym wyborem</li>
+				<li>Rower o rozmiarze XS bêdzie odpowiedni</li>
+				<li>Zalecam kupienie roweru o rozmiarze XS</li>
+			</random>
+				Chcesz sprawdzic ponownie ?
+		</template>
+	</category>	
+	<category>
+	<pattern>S</pattern>
+		<template>
+			<random>
+				<li>Myœlê ¿e rozmiar roweru S by³by dobrym wyborem</li>
+				<li>Rower o rozmiarze S bêdzie odpowiedni</li>
+				<li>Zalecam kupienie roweru o rozmiarze S</li>
+			</random>
+				Chcesz sprawdzic ponownie ?
+		</template>
+	</category>
+	<category>
+	<pattern>M</pattern>
+		<template>
+			<random>
+				<li>Myœlê ¿e rozmiar roweru M by³by dobrym wyborem</li>
+				<li>Rower o rozmiarze M bêdzie odpowiedni</li>
+				<li>Zalecam kupienie roweru o rozmiarze M</li>
+			</random>
+				Chcesz sprawdzic ponownie ?
+		</template>
+	</category>
+	<category>
+	<pattern>L</pattern>
+		<template>
+			<random>
+				<li>Myœlê ¿e rozmiar roweru L by³by dobrym wyborem</li>
+				<li>Rower o rozmiarze L bêdzie odpowiedni</li>
+				<li>Zalecam kupienie roweru o rozmiarze L</li>
+			</random>
+				Chcesz sprawdzic ponownie ?
+		</template>
+	</category>
+	<category>
+	<pattern>XL</pattern>
+		<template>
+			<random>
+				<li>Myœlê ¿e rozmiar roweru XL by³by dobrym wyborem</li>
+				<li>Rower o rozmiarze XL bêdzie odpowiedni</li>
+				<li>Zalecam kupienie roweru o rozmiarze XL</li>
+			</random>
+				Chcesz sprawdzic ponownie ?
+		</template>
+	</category>
+	<category>
+	<pattern>GXS</pattern>
+		<template>
+			<random>
+				<li>Myœlê ¿e rozmiar ramy 14 cali by³by dobrym wyborem</li>
+				<li>Rower o rozmiarze ramy 14 cali bêdzie odpowiedni</li>
+				<li>Zalecam kupienie roweru o rozmiarze ramy 14 cali</li>
+			</random>
+				Chcesz sprawdzic ponownie ?
+		</template>
+	</category>
+	<category>
+	<pattern>GS</pattern>
+		<template>
+			<random>
+				<li>Myœlê ¿e rozmiar ramy 17 cali by³by dobrym wyborem</li>
+				<li>Rower o rozmiarze ramy 17 cali bêdzie odpowiedni</li>
+				<li>Zalecam kupienie roweru o rozmiarze ramy 17 cali</li>
+			</random>
+				Chcesz sprawdzic ponownie ?
+		</template>
+	</category>
+	<category>
+	<pattern>GM</pattern>
+		<template>
+			<random>
+				<li>Myœlê ¿e rozmiar ramy 19 cali by³by dobrym wyborem</li>
+				<li>Rower o rozmiarze ramy 19 cali bêdzie odpowiedni</li>
+				<li>Zalecam kupienie roweru o rozmiarze ramy 19 cali</li>
+			</random>
+				Chcesz sprawdzic ponownie ?
+		</template>
+	</category>
+	<category>
+	<pattern>GL</pattern>
+		<template>
+			<random>
+				<li>Myœlê ¿e rozmiar ramy 21 cali by³by dobrym wyborem</li>
+				<li>Rower o rozmiarze ramy 21 cali bêdzie odpowiedni</li>
+				<li>Zalecam kupienie roweru o rozmiarze ramy 21 cali</li>
+			</random>
+				Chcesz sprawdzic ponownie ?
+		</template>
+	</category>
+	<category>
+	<pattern>GXL</pattern>
+		<template>
+			<random>
+				<li>Myœlê ¿e rozmiar ramy 21 cali by³by dobrym wyborem</li>
+				<li>Rower o rozmiarze ramy 21 cali bêdzie odpowiedni</li>
+				<li>Zalecam kupienie roweru o rozmiarze ramy 21 cali</li>
+			</random>
+				Chcesz sprawdzic ponownie ?
+		</template>
+	</category>
+</aiml>

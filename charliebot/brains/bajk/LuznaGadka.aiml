@@ -1,0 +1,495 @@
+<?xml version = "1.0" encoding = "OEM-852"?>
+<aiml>
+	<category>
+		    <pattern>FIRSTHELLO</pattern>
+		        <template>Witaj, jestem twoim doradc¹ rowerowym!
+					<think><set name="test4hello">false</set></think>
+				</template>
+	</category>
+	
+	<category>
+		<pattern>JAKI ROWER</pattern>
+		<template>
+			Hej! Chêtnie pomogê Ci wybraæ wymarzony rower, ale najpierw powiedz mi, gdzie chcesz nim siê poruszaæ? 
+			Œcie¿ki rowerowe w mieœcie, ostrzenie zêbów w terenie czy mo¿e jedno i drugie? :)
+		</template>
+	</category>
+
+	<category>
+		<pattern>JAKI ROWER *</pattern>
+		<template>
+			Hej! Chêtnie pomogê Ci wybraæ wymarzony rower, ale najpierw powiedz mi, gdzie chcesz nim siê poruszaæ? 
+			Œcie¿ki rowerowe w mieœcie, ostrzenie zêbów w terenie czy mo¿e jedno i drugie? :)
+		</template>
+	</category>
+
+	<category>
+		<pattern>* JAKI ROWER</pattern>
+		<template>
+			Hej! Chêtnie pomogê Ci wybraæ wymarzony rower, ale najpierw powiedz mi, gdzie chcesz nim siê poruszaæ? 
+			Œcie¿ki rowerowe w mieœcie, ostrzenie zêbów w terenie czy mo¿e jedno i drugie? :)
+		</template>
+	</category>
+
+	<category>
+		<pattern>* JAKI ROWER *</pattern>
+		<template>
+			Hej! Chêtnie pomogê Ci wybraæ wymarzony rower, ale najpierw powiedz mi, gdzie chcesz nim siê poruszaæ? 
+			Œcie¿ki rowerowe w mieœcie, ostrzenie zêbów w terenie czy mo¿e jedno i drugie? :)
+		</template>
+	</category>
+	
+	<category>
+		<pattern>JAKI RODZAJ</pattern>
+		<template>
+			Hej! Chêtnie pomogê Ci wybraæ wymarzony rower, ale najpierw powiedz mi, gdzie chcesz nim siê poruszaæ? 
+			Œcie¿ki rowerowe w mieœcie, ostrzenie zêbów w terenie czy mo¿e jedno i drugie? :)
+		</template>
+	</category>
+
+	<category>
+		<pattern>JAKI RODZAJ *</pattern>
+		<template>
+			Hej! Chêtnie pomogê Ci wybraæ wymarzony rower, ale najpierw powiedz mi, gdzie chcesz nim siê poruszaæ? 
+			Œcie¿ki rowerowe w mieœcie, ostrzenie zêbów w terenie czy mo¿e jedno i drugie? :)
+		</template>
+	</category>
+
+	<category>
+		<pattern>* JAKI RODZAJ</pattern>
+		<template>
+			Hej! Chêtnie pomogê Ci wybraæ wymarzony rower, ale najpierw powiedz mi, gdzie chcesz nim siê poruszaæ? 
+			Œcie¿ki rowerowe w mieœcie, ostrzenie zêbów w terenie czy mo¿e jedno i drugie? :)
+		</template>
+	</category>
+	
+	<category>
+		<pattern> * JAKI RODZAJ *</pattern>
+		<template>
+			Hej! Chêtnie pomogê Ci wybraæ wymarzony rower, ale najpierw powiedz mi, gdzie chcesz nim siê poruszaæ? 
+			Œcie¿ki rowerowe w mieœcie, ostrzenie zêbów w terenie czy mo¿e jedno i drugie? :)
+		</template>
+	</category>
+
+	<category>
+		<pattern>JAKI TYP</pattern>
+		<template>
+			Hej! Chêtnie pomogê Ci wybraæ wymarzony rower, ale najpierw powiedz mi, gdzie chcesz nim siê poruszaæ? 
+			Œcie¿ki rowerowe w mieœcie, ostrzenie zêbów w terenie czy mo¿e jedno i drugie? :)
+		</template>
+	</category>
+
+	<category>
+		<pattern>JAKI TYP *</pattern>
+		<template>
+			Hej! Chêtnie pomogê Ci wybraæ wymarzony rower, ale najpierw powiedz mi, gdzie chcesz nim siê poruszaæ? 
+			Œcie¿ki rowerowe w mieœcie, ostrzenie zêbów w terenie czy mo¿e jedno i drugie? :)
+		</template>
+	</category>
+
+	<category>
+		<pattern>* JAKI TYP</pattern>
+		<template>
+			Hej! Chêtnie pomogê Ci wybraæ wymarzony rower, ale najpierw powiedz mi, gdzie chcesz nim siê poruszaæ? 
+			Œcie¿ki rowerowe w mieœcie, ostrzenie zêbów w terenie czy mo¿e jedno i drugie? :)
+		</template>
+	</category>
+	
+	<category>
+		<pattern> * JAKI TYP *</pattern>
+		<template>
+			Hej! Chêtnie pomogê Ci wybraæ wymarzony rower, ale najpierw powiedz mi, gdzie chcesz nim siê poruszaæ? 
+			Œcie¿ki rowerowe w mieœcie, ostrzenie zêbów w terenie czy mo¿e jedno i drugie? :)
+		</template>
+	</category>
+
+
+
+	<category>
+		<pattern>MIASTO</pattern>
+		<template>
+			W takim razie rower miejski!
+			Rowery miejskie, jak sama nazwa wskazuje, najlepiej sprawdzaj¹ siê w jeŸdzie po mieœcie ;)
+			Chêtnie pomogê dobraæ odpowiedni rozmiar, wystarczy ¿e napiszesz mi w jakim przedziale wzrostowym siê znajdujesz :)
+			[1]150-160, [2]161-173, [3]174-183, [4]184-193, [5]194-198
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* MIASTO</pattern>
+		<template>
+			W takim razie rower miejski!
+			Rowery miejskie, jak sama nazwa wskazuje, najlepiej sprawdzaj¹ siê w jeŸdzie po mieœcie ;)
+			Chêtnie pomogê dobraæ odpowiedni rozmiar, wystarczy ¿e napiszesz mi w jakim przedziale wzrostowym siê znajdujesz :)
+			[1]150-160, [2]161-173, [3]174-183, [4]184-193, [5]194-198
+		</template>
+	</category>
+	
+	<category>
+		<pattern>MIASTO *</pattern>
+		<template>
+			W takim razie rower miejski!
+			Rowery miejskie, jak sama nazwa wskazuje, najlepiej sprawdzaj¹ siê w jeŸdzie po mieœcie ;)
+			Chêtnie pomogê dobraæ odpowiedni rozmiar, wystarczy ¿e napiszesz mi w jakim przedziale wzrostowym siê znajdujesz :)
+			[1]150-160, [2]161-173, [3]174-183, [4]184-193, [5]194-198
+		</template>
+	</category>
+
+	<category>
+		<pattern>* MIASTO *</pattern>
+		<template>
+			W takim razie rower miejski!
+			Rowery miejskie, jak sama nazwa wskazuje, najlepiej sprawdzaj¹ siê w jeŸdzie po mieœcie ;)
+			Chêtnie pomogê dobraæ odpowiedni rozmiar, wystarczy ¿e napiszesz mi w jakim przedziale wzrostowym siê znajdujesz :)
+			[1]150-160, [2]161-173, [3]174-183, [4]184-193, [5]194-198
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TEREN</pattern>
+		<template>
+			Góral! Rowery górskie s¹ stworzone do wyzwañ terenowych.
+			Chêtnie pomogê dobraæ odpowiedni rozmiar, wystarczy ¿e napiszesz mi w jakim przedziale wzrostowym siê znajdujesz :)
+			[A]150-160, [B]161-170, [C]171-183, [D]184-193, [E]194-198
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* TEREN</pattern>
+		<template>
+			Góral! Rowery górskie s¹ stworzone do wyzwañ terenowych.
+			Chêtnie pomogê dobraæ odpowiedni rozmiar, wystarczy ¿e napiszesz mi w jakim przedziale wzrostowym siê znajdujesz :)
+			[A]150-160, [B]161-170, [C]171-183, [D]184-193, [E]194-198
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TEREN *</pattern>
+		<template>
+			Góral! Rowery górskie s¹ stworzone do wyzwañ terenowych.
+			Chêtnie pomogê dobraæ odpowiedni rozmiar, wystarczy ¿e napiszesz mi w jakim przedziale wzrostowym siê znajdujesz :)
+			[A]150-160, [B]161-170, [C]171-183, [D]184-193, [E]194-198
+		</template>
+	</category>
+
+	<category>
+		<pattern>* TEREN *</pattern>
+		<template>
+			Góral! Rowery górskie s¹ stworzone do wyzwañ terenowych.
+			Chêtnie pomogê dobraæ odpowiedni rozmiar, wystarczy ¿e napiszesz mi w jakim przedziale wzrostowym siê znajdujesz :)
+			[A]150-160, [B]161-170, [C]171-183, [D]184-193, [E]194-198
+		</template>
+	</category>
+
+	<category>
+		<pattern>JEDNO I DRUGIE</pattern>
+		<template>
+			Widzê ¿e nie lubisz ograniczeñ ;)
+			Rower crossowy bêdzie dla Ciebie najbardziej wszechstronnym rozwi¹zaniem.
+			Chêtnie pomogê dobraæ odpowiedni rozmiar, wystarczy ¿e napiszesz mi w jakim przedziale wzrostowym siê znajdujesz :)
+			[1]150-160, [2]161-173, [3]174-183, [4]184-193, [5]194-198
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* JEDNO I DRUGIE</pattern>
+		<template>
+			Widzê ¿e nie lubisz ograniczeñ ;)
+			Rower crossowy bêdzie dla Ciebie najbardziej wszechstronnym rozwi¹zaniem.
+			Chêtnie pomogê dobraæ odpowiedni rozmiar, wystarczy ¿e napiszesz mi w jakim przedziale wzrostowym siê znajdujesz :)
+			[1]150-160, [2]161-173, [3]174-183, [4]184-193, [5]194-198
+		</template>
+	</category>
+	
+	<category>
+		<pattern>JEDNO I DRUGIE *</pattern>
+		<template>
+			Widzê ¿e nie lubisz ograniczeñ ;)
+			Rower crossowy bêdzie dla Ciebie najbardziej wszechstronnym rozwi¹zaniem.
+			Chêtnie pomogê dobraæ odpowiedni rozmiar, wystarczy ¿e napiszesz mi w jakim przedziale wzrostowym siê znajdujesz :)
+			[1]150-160, [2]161-173, [3]174-183, [4]184-193, [5]194-198
+		</template>
+	</category>
+
+	<category>
+		<pattern>* JEDNO I DRUGIE *</pattern>
+		<template>
+			Widzê ¿e nie lubisz ograniczeñ ;)
+			Rower crossowy bêdzie dla Ciebie najbardziej wszechstronnym rozwi¹zaniem.
+			Chêtnie pomogê dobraæ odpowiedni rozmiar, wystarczy ¿e napiszesz mi w jakim przedziale wzrostowym siê znajdujesz :)
+			[1]150-160, [2]161-173, [3]174-183, [4]184-193, [5]194-198
+		</template>
+	</category>
+	
+	<category>
+		<pattern>1</pattern>
+		<template>
+			<srai>
+				XS
+			</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>2</pattern>
+		<template>
+			<srai>
+				S
+			</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>3</pattern>
+		<template>
+			<srai>
+				M
+			</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>4</pattern>
+		<template>
+			<srai>
+				L
+			</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>5</pattern>
+		<template>
+			<srai>
+				XL
+			</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>A</pattern>
+		<template>
+			<srai>
+				GXS
+			</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>B</pattern>
+		<template>
+			<srai>
+				GS
+			</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>C</pattern>
+		<template>
+			<srai>
+				GM
+			</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>D</pattern>
+		<template>
+			<srai>
+				GL
+			</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>E</pattern>
+		<template>
+			<srai>
+				GXL
+			</srai>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ROWER CROSSOWY</pattern>
+		<template>
+			Ten typ roweru jest najbardziej wszechstronnym rozwi¹zaniem dla osób, które nie lubi¹ ograniczeñ. Po pierwsze, posiada cechy roweru do jazdy po mniej wymagaj¹cym terenie, jak leœne œcie¿ki i polne drogi szutrowe. Po drugie, mo¿na nim doœæ szybko poruszaæ siê po asfalcie, bo posiada lekk¹ konstrukcjê i ko³a o du¿o ³agodniejszym bie¿niku ni¿ â€góraleâ€. 
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ROWER GÓRSKI</pattern>
+		<template>
+			Jak sama nazwa wskazuje, rower górski s³u¿y do jazdy po terenach górzystych. Jego budowa oraz charakterystyczne cechy przystosowuj¹ go do ciê¿kich i stromych tras.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ROWER MIEJSKI</pattern>
+		<template>
+			Rower miejski - jak sama nazwa wskazuje, przeznaczony do codziennej jazdy po mieœcie - to na przyk³ad rower holenderski. Dlaczego rower holender? Chocia¿by ze wzglêdu na to, ¿e to Holandia jest uwa¿ana za kolebkê rowerów.
+		</template>
+	</category>
+	
+		<category>
+		<pattern>* ROWER CROSSOWY</pattern>
+		<template>
+			Ten typ roweru jest najbardziej wszechstronnym rozwi¹zaniem dla osób, które nie lubi¹ ograniczeñ. Po pierwsze, posiada cechy roweru do jazdy po mniej wymagaj¹cym terenie, jak leœne œcie¿ki i polne drogi szutrowe. Po drugie, mo¿na nim doœæ szybko poruszaæ siê po asfalcie, bo posiada lekk¹ konstrukcjê i ko³a o du¿o ³agodniejszym bie¿niku ni¿ â€góraleâ€. 
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* ROWER GÓRSKI</pattern>
+		<template>
+			Jak sama nazwa wskazuje, rower górski s³u¿y do jazdy po terenach górzystych. Jego budowa oraz charakterystyczne cechy przystosowuj¹ go do ciê¿kich i stromych tras.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* ROWER MIEJSKI</pattern>
+		<template>
+			Rower miejski - jak sama nazwa wskazuje, przeznaczony do codziennej jazdy po mieœcie - to na przyk³ad rower holenderski. Dlaczego rower holender? Chocia¿by ze wzglêdu na to, ¿e to Holandia jest uwa¿ana za kolebkê rowerów.
+		</template>
+	</category>
+
+	<category>
+		<pattern>ROWER CROSSOWY *</pattern>
+		<template>
+			Ten typ roweru jest najbardziej wszechstronnym rozwi¹zaniem dla osób, które nie lubi¹ ograniczeñ. Po pierwsze, posiada cechy roweru do jazdy po mniej wymagaj¹cym terenie, jak leœne œcie¿ki i polne drogi szutrowe. Po drugie, mo¿na nim doœæ szybko poruszaæ siê po asfalcie, bo posiada lekk¹ konstrukcjê i ko³a o du¿o ³agodniejszym bie¿niku ni¿ â€góraleâ€. 
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ROWER GÓRSKI *</pattern>
+		<template>
+			Jak sama nazwa wskazuje, rower górski s³u¿y do jazdy po terenach górzystych. Jego budowa oraz charakterystyczne cechy przystosowuj¹ go do ciê¿kich i stromych tras.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>ROWER MIEJSKI *</pattern>
+		<template>
+			Rower miejski - jak sama nazwa wskazuje, przeznaczony do codziennej jazdy po mieœcie - to na przyk³ad rower holenderski. Dlaczego rower holender? Chocia¿by ze wzglêdu na to, ¿e to Holandia jest uwa¿ana za kolebkê rowerów.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* ROWER CROSSOWY *</pattern>
+		<template>
+			Ten typ roweru jest najbardziej wszechstronnym rozwi¹zaniem dla osób, które nie lubi¹ ograniczeñ. Po pierwsze, posiada cechy roweru do jazdy po mniej wymagaj¹cym terenie, jak leœne œcie¿ki i polne drogi szutrowe. Po drugie, mo¿na nim doœæ szybko poruszaæ siê po asfalcie, bo posiada lekk¹ konstrukcjê i ko³a o du¿o ³agodniejszym bie¿niku ni¿ â€góraleâ€. 
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* ROWER GÓRSKI *</pattern>
+		<template>
+			Jak sama nazwa wskazuje, rower górski s³u¿y do jazdy po terenach górzystych. Jego budowa oraz charakterystyczne cechy przystosowuj¹ go do ciê¿kich i stromych tras.
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* ROWER MIEJSKI *</pattern>
+		<template>
+			Rower miejski - jak sama nazwa wskazuje, przeznaczony do codziennej jazdy po mieœcie - to na przyk³ad rower holenderski. Dlaczego rower holender? Chocia¿by ze wzglêdu na to, ¿e to Holandia jest uwa¿ana za kolebkê rowerów.
+		</template>
+	</category>
+
+	<category>
+		<pattern>DZIEKUJE</pattern>
+		<template>
+			Porozmawiajmy o rowerach! 
+			<think><set name="test4hello">true</set></think>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* DZIEKUJE</pattern>
+		<template>
+			Porozmawiajmy o rowerach! 
+			<think><set name="test4hello">true</set></think>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>DZIEKUJE *</pattern>
+		<template>
+			Porozmawiajmy o rowerach! 
+			<think><set name="test4hello">true</set></think>
+		</template>
+	</category>
+
+	<category>
+		<pattern>NIE *</pattern>
+		<template>
+			Szkoda :/
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NIE</pattern>
+		<template>
+			Szkoda :/
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NIE</pattern>
+		<template>
+			Szkoda :/
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NIC *</pattern>
+		<template>
+			Szkoda :/
+		</template>
+	</category>
+	
+	<category>
+		<pattern>NIC</pattern>
+		<template>
+			Szkoda :/
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* NIC</pattern>
+		<template>
+			Szkoda :/
+		</template>
+	</category>
+	
+	<category>
+		<pattern>* TAK</pattern>
+		<template>
+			Czego chcia³byœ siê dowiedzieæ od swojego osobistego doradcy rowerowego? :)
+			<think><set name="test4hello">false</set></think>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TAK</pattern>
+		<template>
+			Czego chcia³byœ siê dowiedzieæ od swojego osobistego doradcy rowerowego? :)
+			<think><set name="test4hello">false</set></think>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>TAK *</pattern>
+		<template>
+			Czego chcia³byœ siê dowiedzieæ od swojego osobistego doradcy rowerowego? :)
+			<think><set name="test4hello">false</set></think>
+		</template>
+	</category>
+	
+	<category>
+		<pattern>*</pattern>
+		<template>
+			Wybacz, ale nie zrozumia³em, w koñcu jestem tylko kilkoma wierszami kodu :/
+			Ale nie przejmuj siê, mo¿esz zadaæ pytanie inaczej, mo¿e wtedy uda mi siê na nie odpowiedzieæ ;)
+		</template>
+	</category>
+</aiml>
